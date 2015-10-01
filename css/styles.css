@@ -1,0 +1,222 @@
+/***FONTS*****/
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Sigmar+One|Lobster|Patua+One|Architects+Daughter|Kaushan+Script|Fredoka+One|Rock+Salt|Shadows+Into+Light+Two|Permanent+Marker|Handlee|Great+Vibes|Just+Another+Hand|Niconne|Limelight|Damion|Calligraffitti|Audiowide|Bad+Script);
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/*font-family: 'Poiret One', cursive;*/
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic,400italic,600,600italic);
+/* font-family: 'Josefin Sans', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
+/*font-family: 'Quattrocento', serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Righteous);
+/*font-family: 'Fredericka the Great', cursive;
+font-family: 'Righteous', cursive; */
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+/*font-family: 'Slabo 27px', serif;*/
+/******************************************************************/
+
+
+html, body {
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    color: #000;
+    box-sizing:border-box;
+    background-color: black;
+}
+
+#wrapper1, #wrapper2, #wrapper3, #wrapper5 {
+    height: 100%;
+    width: 100%;
+}
+
+#bg1 {
+    height: 1000px;
+    width: 100%;
+    background-image: url("../assets/assets/h_img.jpg");
+    text-align: center;
+    color: white;
+}
+
+#bg1 h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+#bg1 p {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#bg1 .text {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+}
+
+/*<!--Div2:About US-->*/
+#div2, #div3, #div4 {
+    top: 30px;
+    height: 488px;
+    position: relative;
+}
+
+/* Aligning center */
+.parent {
+    position: relative;
+}
+
+.mid {
+    /*to fit in div*/
+  /*  max-width:100%;
+    max-height:100%;*/
+
+    /*aligning center*/
+    position: absolute; /*parent div should be relatively positioned*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;
+    display: inline-block;
+
+}
+
+
+#div2 {
+    width: 100%;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 1.25em;
+
+}
+
+ /*<!--Div3: Services-->*/
+
+#div3 {
+    background-image: url("../assets/assets/s_image.jpg");
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+#div3.text2 {
+    position: absolute;
+    top: 100px;
+    left: 33%
+}
+
+/*<!--Div4: What we do-->*/
+#div4 {
+    width: 100%;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#div4 .row {
+  margin-top: 10%;
+
+
+}
+
+/*<!----Div5 Portfolio ---->*/
+
+#div5 {
+    width: 100%;
+    height: 900px;;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#layer1, #layer2 {
+    height: 40%;
+    display: inline-block;
+
+}
+
+
+/*<!----Div6: Contact Us ---->*/
+
+#div6 {
+    background-image: url("../assets/assets/c_image.jpg");
+    height: 685px;
+    color: white;
+}
+
+#heading {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contact-box-top {
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+#contact-box-bottom {
+    height: 300px;
+}
+
+.name-box, .email-box, .email-body {
+    border-style: solid;
+    border-color: #fff;
+}
+
+.name-box, .email-box {
+    height: 65px;
+}
+.email-body {
+    height: 250px;
+
+}
+
+/*<!----Div7: Social Icons ---->*/
+
+#div7 {
+    height: 250px;
+    background-color: cornsilk;
+
+}
+
+#social-icons {
+    height: 30%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#social-icons .soc {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+#foot {
+    height: 50%;
+    text-align: center;
+}
+
+#foot p {
+    font-size: .9em;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
